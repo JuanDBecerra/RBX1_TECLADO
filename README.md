@@ -15,4 +15,4 @@ Se usa remap para unir el nodo de **"turtle1/cmd_vel"** al **"/cmd_vel"** del pa
 ```
 NOTA:
 -----
->En ROS noetic se presentó un error, el cual se solucionó modificando el archivo "fake_turtlebot.launch" como se especificó dentro del mismo.
+>En ROS noetic se presentó un error el cual se solucionó modificando el archivo "fake_turtlebot.launch" como se especificó dentro del mismo.
