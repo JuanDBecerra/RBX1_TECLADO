@@ -13,4 +13,6 @@ Se usa remap para unir el nodo de **"turtle1/cmd_vel"** al **"/cmd_vel"** del pa
 3. $ rosrun rviz rviz -d `rospack find rbx1_nav`/sim.rviz
 4. $ rosrun turtlesim turtle_teleop_key
 ```
-<!--En ROS noetic se presentó un error, el cual se solucionó modificando el archivo "fake_turtlebot.launch" como se especificó dentro del mismo-->
+NOTA:
+-----
+>En ROS noetic se presentó un error, el cual se solucionó modificando el archivo "fake_turtlebot.launch" como se especificó dentro del mismo
