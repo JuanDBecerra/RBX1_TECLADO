@@ -1,9 +1,8 @@
 # RBX1_TECLADO
 Se usa remap para poder controlar el robot de RBX1 con el teclado
 
-
-TEMPLATE PARA GENERAR EL README.md GIT
-==============
+* Se usa remap para unir el nodo de turtle1/cmd_vel al /cmd_vel del package arbotix y poder controlar el robot con el teclado
+> <remap from="/cmd_vel" to="/turtle1/cmd_vel" />
 
 *This will be Italic*
 
