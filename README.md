@@ -4,7 +4,7 @@ En el launch "fake_turtlebot.launch" se incluye la siguiente instrucción
 ```
 <remap from="/cmd_vel" to="/turtle1/cmd_vel"/>
 ```
-Se usa remap para unir el nodo de **"turtle1/cmd_vel"** al **"/cmd_vel"** del package arbotix, lo que se busca con esto es conectar el nodo **turtle_teleop_key** del package **turtlesim** con los nodos de arbotix y asi poder controlar el robot desde el teclado.
+Se usa remap para renombrar el topic de **"turtle1/cmd_vel"** a **"/cmd_vel"** para poderlo usar en el package arbotix, lo que se busca con esto es conectar el nodo **turtle_teleop_key** del package **turtlesim** con los nodos de arbotix y asi poder controlar el robot desde el teclado.
 
 * Las siguientes instrucciones se corren en terminales diferentes, para comprobar que el remap se realizó de manera correcta.
 ```
